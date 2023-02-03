@@ -1,0 +1,225 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R13287729
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2021 (5-Year Estimates)
+Dataset:          Social Explorer Tables: ACS 2021 (5-Year Estimates)
+Tables:
+
+      1. Travel Time to Work for Workers 16 Years and Over
+         Universe:  Workers 16 Years and Over
+         Name:      A09001
+         Variables:
+            A09001_001:   Workers 16 Years and Over:
+            A09001_002:      Did Not Work At Home:
+            A09001_003:         Less than 10 Minutes
+            A09001_004:         10 to 19 Minutes
+            A09001_005:         20 to 29 Minutes
+            A09001_006:         30 to 39 Minutes
+            A09001_007:         40 to 59 Minutes
+            A09001_008:         60 to 89 Minutes
+            A09001_009:         90 or More Minutes
+            A09001_010:      Worked At Home
+
+
+      2. Travel Time to Work for Workers 16 Years and Over (Who Did Not Work At Home)
+         Universe:  Workers 16 Years and Over Who Did Not Work at Home
+         Name:      B09001
+         Variables:
+            B09001_001:   Workers 16 Years and Over Who Did Not Work At Home:
+            B09001_002:      Less than 10 Minutes
+            B09001_003:      10 to 19 Minutes
+            B09001_004:      20 to 29 Minutes
+            B09001_005:      30 to 39 Minutes
+            B09001_006:      40 to 59 Minutes
+            B09001_007:      60 to 89 Minutes
+            B09001_008:      90 or More Minutes
+
+
+      3. Travel Time to Work for Workers 16 Years and Over (In 15 MIn Intervals) 
+         Universe:  Workers 16 Years and Over Who Did Not Work at Home
+         Name:      A09002
+         Variables:
+            A09002_001:   Workers 16 Years and Over Who Did Not Work At Home:
+            A09002_002:      Less than 5 Minutes
+            A09002_003:      5 to 14 Minutes
+            A09002_004:      15 to 29 Minutes
+            A09002_005:      30 to 44 Minutes
+            A09002_006:      45 to 59 Minutes
+            A09002_007:      60 to 89 Minutes
+            A09002_008:      90 or More Minutes
+
+
+      4. Travel Time to Work for Workers 16 Years and Over (In 15 MIn Intervals) - Cumulative (Less)
+         Universe:  Workers 16 Years and Over Who Did Not Work at Home
+         Name:      A09002A
+         Variables:
+            A09002A_001:   Workers 16 Years and Over Who Did Not Work At Home:
+            A09002A_002:      Less than 5 Minutes
+            A09002A_003:      Less than 15 Minutes
+            A09002A_004:      Less than 30 Minutes
+            A09002A_005:      Less than 45 Minutes
+            A09002A_006:      Less than 60 Minutes
+            A09002A_007:      Less than 90 Minutes
+
+
+      5. Travel Time to Work for Workers 16 Years and Over (In 15 MIn Intervals) - Cumulative (More)
+         Universe:  Workers 16 Years and Over Who Did Not Work at Home
+         Name:      A09002B
+         Variables:
+            A09002B_001:   Workers 16 Years and Over Who Did Not Work At Home:
+            A09002B_002:      More than 5 Minutes
+            A09002B_003:      More than 15 Minutes
+            A09002B_004:      More than 30 Minutes
+            A09002B_005:      More than 45 Minutes
+            A09002B_006:      More than 60 Minutes
+            A09002B_007:      More than 90 Minutes
+
+
+      6. Average Commute to Work (In Min)
+         Universe:  Average Commute to Work (In min)
+         Name:      A09003
+         Variables:
+            A09003_001:   Average Commute to Work (In Min)
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      QName:          Qualifying Name
+      FILEID:         File identification
+      STUSAB:         State Postal Abbreviation
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Census Region
+      DIVISION:       Census Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS Code)
+      COUNTY:         County of current residence
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/AlaskaNative Area/ Hawaiian Home Land(Census)
+      AIANHHFP:       American Indian Area/AlaskaNative Area/ Hawaiian Home Land(FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian TribalSubdivision (Census)
+      AITS:           American Indian TribalSubdivision (FIPS)
+      ANRC:           Alaska Native RegionalCorporation (FIPS)
+      CBSA:           Metropolitan and MicropolitanStatistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Statistical Area-Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/MicropolitanIndicator Flag
+      NECTA:          New England City and Town Area
+      CNECTA:         New England City and TownCombined Statistical Area
+      NECTADIV:       New England City and Town AreaDivision
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          5-digit ZIP Code Tabulation Area
+      SUBMCD:         Subminor Civil Division (FIPS)
+      SDELM:          State-School District (Elementary)
+      SDSEC:          State-School District (Secondary)
+      SDUNI:          State-School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      PUMA5:          Public Use Microdata Area – 5%File
+      PUMA1:          Public Use Microdata Area - 1% File
+      GEOID:          Geographic Identifier
+      NAME:           Area Name
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PLACESE:        Place (State FIPS + Place FIPS)
+      A09001_001:     Workers 16 Years and Over:
+      A09001_002:     Workers 16 Years and Over: Did Not Work At Home
+      A09001_003:     Workers 16 Years and Over: Did Not Work At Home: Less than 10 Minutes
+      A09001_004:     Workers 16 Years and Over: Did Not Work At Home: 10 to 19 Minutes
+      A09001_005:     Workers 16 Years and Over: Did Not Work At Home: 20 to 29 Minutes
+      A09001_006:     Workers 16 Years and Over: Did Not Work At Home: 30 to 39 Minutes
+      A09001_007:     Workers 16 Years and Over: Did Not Work At Home: 40 to 59 Minutes
+      A09001_008:     Workers 16 Years and Over: Did Not Work At Home: 60 to 89 Minutes
+      A09001_009:     Workers 16 Years and Over: Did Not Work At Home: 90 or More Minutes
+      A09001_010:     Workers 16 Years and Over: Worked At Home
+      B09001_001:     Workers 16 Years and Over Who Did Not Work At Home:
+      B09001_002:     Workers 16 Years and Over Who Did Not Work At Home: Less than 10 Minutes
+      B09001_003:     Workers 16 Years and Over Who Did Not Work At Home: 10 to 19 Minutes
+      B09001_004:     Workers 16 Years and Over Who Did Not Work At Home: 20 to 29 Minutes
+      B09001_005:     Workers 16 Years and Over Who Did Not Work At Home: 30 to 39 Minutes
+      B09001_006:     Workers 16 Years and Over Who Did Not Work At Home: 40 to 59 Minutes
+      B09001_007:     Workers 16 Years and Over Who Did Not Work At Home: 60 to 89 Minutes
+      B09001_008:     Workers 16 Years and Over Who Did Not Work At Home: 90 or More Minutes
+      A09002_001:     Workers 16 Years and Over Who Did Not Work At Home:
+      A09002_002:     Workers 16 Years and Over Who Did Not Work At Home: Less than 5 Minutes
+      A09002_003:     Workers 16 Years and Over Who Did Not Work At Home: 5 to 14 Minutes
+      A09002_004:     Workers 16 Years and Over Who Did Not Work At Home: 15 to 29 Minutes
+      A09002_005:     Workers 16 Years and Over Who Did Not Work At Home: 30 to 44 Minutes
+      A09002_006:     Workers 16 Years and Over Who Did Not Work At Home: 45 to 59 Minutes
+      A09002_007:     Workers 16 Years and Over Who Did Not Work At Home: 60 to 89 Minutes
+      A09002_008:     Workers 16 Years and Over Who Did Not Work At Home: 90 or More Minutes
+      A09002A_001:    Workers 16 Years and Over Who Did Not Work At Home:
+      A09002A_002:    Workers 16 Years and Over Who Did Not Work At Home: Less than 5 Minutes
+      A09002A_003:    Workers 16 Years and Over Who Did Not Work At Home: Less than 15 Minutes
+      A09002A_004:    Workers 16 Years and Over Who Did Not Work At Home: Less than 30 Minutes
+      A09002A_005:    Workers 16 Years and Over Who Did Not Work At Home: Less than 45 Minutes
+      A09002A_006:    Workers 16 Years and Over Who Did Not Work At Home: Less than 60 Minutes
+      A09002A_007:    Workers 16 Years and Over Who Did Not Work At Home: Less than 90 Minutes
+      A09002B_001:    Workers 16 Years and Over Who Did Not Work At Home:
+      A09002B_002:    Workers 16 Years and Over Who Did Not Work At Home: More than 5 Minutes
+      A09002B_003:    Workers 16 Years and Over Who Did Not Work At Home: More than 15 Minutes
+      A09002B_004:    Workers 16 Years and Over Who Did Not Work At Home: More than 30 Minutes
+      A09002B_005:    Workers 16 Years and Over Who Did Not Work At Home: More than 45 Minutes
+      A09002B_006:    Workers 16 Years and Over Who Did Not Work At Home: More than 60 Minutes
+      A09002B_007:    Workers 16 Years and Over Who Did Not Work At Home: More than 90 Minutes
+      A09003_001:     Average Commute to Work (In Min)
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2023
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R13287729
+
+If you have any questions contact info@socialexplorer.com
